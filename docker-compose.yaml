@@ -1,0 +1,11 @@
+
+version: "3.8"
+services:
+  # Frontend service
+  24point:
+    image: 24points:latest
+    container_name: 24points_a
+    restart: always
+    ports:
+      - 9393:80
+
